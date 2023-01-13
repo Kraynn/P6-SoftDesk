@@ -1,5 +1,6 @@
 from rest_framework import permissions
 
+
 """
 Permissions pour les différents objets de l'application
 """

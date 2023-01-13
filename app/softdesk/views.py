@@ -61,7 +61,7 @@ class ContributorsViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         id_project = get_object_or_404(Projects, pk=self.kwargs['id'])
-        return Contributors.objects.filter(projet_id=id_project)
+        return Contributors.objects.filter(project_id=id_project)
 
 
 class CommentsViewSet(viewsets.ModelViewSet):

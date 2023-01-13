@@ -37,7 +37,7 @@ class Projects(models.Model):
 class Contributors(models.Model):
     user_id = models.ForeignKey(
         User, on_delete=models.CASCADE, blank=True, null=True)
-    projet_id = models.ForeignKey(
+    project_id = models.ForeignKey(
         Projects, on_delete=models.CASCADE, blank=True, null=True)
     permission = models.CharField(
         max_length=80, choices=PERMISSIONS, default="RESTRICTED")
