@@ -19,7 +19,7 @@ router.register(r"^(?P<id>[^/.]+)/issues/(?P<issue_id>[^/.]+)/comments",
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('signup/', RegisterView.as_view(), name='signup'),
-    path('login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('login/', TokenObtainPairView.as_view()),
     path('projects/', include(router.urls)),
-    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('token/', TokenRefreshView.as_view()),
 ]
