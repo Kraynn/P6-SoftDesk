@@ -55,8 +55,8 @@ Les requêtes de l'api se font sur le serveur local à l'adresse suivante:
 Sur Postmman :
 ----------------------
 
-L'ensemble des requêtes de l'API se fait par la suite sur Postman:
-> Suivre la documentation postman
+L'ensemble des routes de requêtes est documenté sur Postman:
+> Documentation
 
 ***************************
 
