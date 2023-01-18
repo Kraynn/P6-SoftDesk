@@ -56,7 +56,7 @@ Sur Postmman :
 ----------------------
 
 L'ensemble des routes de requêtes est documenté sur Postman:
-> [Documentation](https://www.google.com](https://documenter.getpostman.com/view/23482099/2s8ZDVaPAi)
+> [Documentation](https://documenter.getpostman.com/view/23482099/2s8ZDVaPAi)
 
 ***************************
 
