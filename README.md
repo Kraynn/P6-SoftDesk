@@ -1,8 +1,6 @@
 # Soft Desk - Projet #10
 __________________________
 
---------------------------
-
 Le programme a pour objet la création une application permettant de remonter et suivre des problèmes technique.
 Un utilisateur peut à ses fins:
 
