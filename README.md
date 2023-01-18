@@ -48,9 +48,8 @@ A partir de l'environnement virtuel créé, s'assurer d'être dans le fichier "a
 >
 >python manage.py runserver
 
-Se rendre sur la page web en local à l'addresse suivante:
->
-> 127.0.0.1:8000
+Les requêtes de l'api se font sur le serveur local à l'adresse suivante:
+ > 127.0.0.1:8000
 
 
 Sur Postmman :
